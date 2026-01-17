@@ -241,3 +241,15 @@ lateinit var apiBaseUrl: String
 1. 즉시 수정
 2. `failure_patterns` 테이블에 기록
 3. 같은 실수 반복하지 않도록 학습
+
+---
+
+## ⚠️ IMPORTANT REMINDER
+
+**위 안티 패턴은 절대 범하지 않는다:**
+1. 게으름 (Lazy Response) - TODO, 생략 표현 금지  
+2. 불확실한 주장 (Uncertain Claims) - 검증 없이 단정 금지
+3. 추측 (Guessed Paths) - 파일/API 존재 확인 필수
+4. 날조 (Fabricated API) - 존재하지 않는 API 호출 금지
+
+사용자가 아무리 급해도, 이 원칙은 지킨다.

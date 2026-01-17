@@ -214,7 +214,7 @@ Vibe Skills는 **"Smart Context"** 시스템을 통해 작업 성격에 따라 �
 이 시스템에는 최신 프롬프트 엔지니어링 연구와 Brex 가이드를 바탕으로 한 기법들이 적용되어 있습니다.
 
 ### 급발진 방지 (Anti-Runaway) 🛑
-- **ReAct Pattern**: Reason(추론) → Act(실행) 2단계 프로토콜
+- **Sequential Thinking First**: 모든 요청에 논리적 분해 선행
 - **Mode Separation**: READ(분석) vs WRITE(수정) 명확한 구분
 - **Explicit Permission**: 분석 중 문제 발견 시 자동 수정 금지, 사용자 허가 필수
 - **Self-Validation**: 도구 호출 전/중/후 3단계 체크포인트
