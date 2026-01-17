@@ -2,6 +2,8 @@
 
 터미널 기반 AI 코딩 에이전트(Gemini CLI, GitHub Copilot, Claude 등)를 위한 **중앙 집중식 지침 관리 시스템**
 
+> **🚀 AI 에이전트야, 이거 바로 설치해줘!** → [QUICKSTART.md](QUICKSTART.md)
+
 ---
 
 ## 🤷‍♂️ 왜 만들었나?
